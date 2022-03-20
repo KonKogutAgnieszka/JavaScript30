@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin:0
+}
+
+html{
+    font-size: 10px;
+    background: url('/01_drumkit/background.jpg')center;
+    background-size: cover;
+}
+
+.keys{
+    display:flex;
+    flex:1;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.key{
+    font-size: 30px; 
+    text-align: center;
+
+    transition: all .07s ease;
+
+    border: 5px solid black;
+    background:white;
+    border-radius: .4rem;
+
+    margin:.5vw;
+    width:10rem;
+    padding:20px;
+    transition: all .07s ease;
+    text-shadow: 0 0 .5rem black;
+}
+
+kbd{
+    display: block;
+}
+
+.sound{
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: .1rem;
+}
+
+.play{
+transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
